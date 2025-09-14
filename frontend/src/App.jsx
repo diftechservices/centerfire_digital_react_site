@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import './index.css'
 import Header from './components/sections/Header'
 import ACFFooter from './components/acf/ACFFooter'
+import HomePageMustache from './pages/HomePageMustache'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import DynamicAboutPage from './pages/DynamicAboutPage'
@@ -21,7 +22,8 @@ function App() {
       {/* Main content with padding for fixed header */}
       <main className="pt-20">
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<HomePageMustache />} />
+          <Route path="/home-old" element={<HomePage />} />
           <Route path="/about" element={<DynamicAboutPage />} />
           <Route path="/about-wp" element={<DynamicAboutPage />} />
           <Route path="/services" element={<ACFServicesPage />} />
