@@ -1,0 +1,13 @@
+
+{
+  "global": {
+    "companyName": "Centerfire Digital",
+    "contactEmail": "contact@centerfiredigital.com"
+  },
+  "homePage": {
+    "hero": {
+      "title": "Welcome to {{global.companyName}}",
+      "subtitle": "Your mission, our code."
+    }
+  }
+}
