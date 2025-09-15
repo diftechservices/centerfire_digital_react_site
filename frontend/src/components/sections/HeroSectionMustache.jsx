@@ -43,8 +43,14 @@ const HeroSectionMustache = () => {
           </div>
         </div>
 
-        {/* Main headline */}
-        <h1 className="font-display font-black text-6xl lg:text-8xl mb-6 leading-tight">
+        {/* Mobile headline */}
+        <h1 className="md:hidden font-display font-black text-4xl mb-6 leading-tight">
+          <span className="text-white">ELITE</span><br />
+          <span className="bg-gradient-to-r from-fire-orange to-tactical-green bg-clip-text text-transparent">SOLUTIONS</span>
+        </h1>
+
+        {/* Desktop headline */}
+        <h1 className="hidden md:block font-display font-black text-6xl lg:text-8xl mb-6 leading-tight">
           <span className="text-white">{hero.mainHeadlineLine1}</span><br />
           <span className="text-fire-orange">{hero.mainHeadlineLine2}</span><br />
           <span className="bg-gradient-to-r from-steel-blue to-tactical-green bg-clip-text text-transparent">{hero.mainHeadlineLine3}</span>

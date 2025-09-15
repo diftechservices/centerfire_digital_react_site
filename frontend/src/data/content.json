@@ -12,10 +12,10 @@
     "mainHeadlineLine2": "TECHNOLOGY",
     "mainHeadlineLine3": "WARFARE",
     "subheadline": "Elite AI-driven solutions engineered for organizations that demand tactical precision, unwavering reliability, and results that cut through the noise of conventional tech consulting.",
-    "ctaButton1Text": "Launch Operation",
+    "ctaButton1Text": "Schedule Strategic Consultation",
     "ctaButton1Url": "/contact",
-    "ctaButton2Text": "Mission Briefing",
-    "ctaButton2Url": "/about",
+    "ctaButton2Text": "View Our Work",
+    "ctaButton2Url": "#portfolio",
     "featureCards": [
       {
         "icon": "fa-solid fa-brain",
@@ -274,6 +274,33 @@
       "Custom Development",
       "Strategic Consultation"
     ]
+  },
+  "missionControl": {
+    "titleLine1": "OPERATIONAL",
+    "titleLine2": "COMMAND CENTER",
+    "description": "Real-time intelligence on our tactical capabilities and deployment readiness across all operational theaters"
+  },
+  "aiArsenal": {
+    "titleLine1": "ARTIFICIAL INTELLIGENCE",
+    "titleLine2": "WEAPONS SYSTEMS",
+    "description": "Advanced AI technologies deployed with military precision to dominate your competitive landscape and achieve tactical superiority",
+    "customAIButtonText": "Request AI Assessment"
+  },
+  "technicalCapabilities": {
+    "title": "TECHNICAL ARSENAL",
+    "description": "Elite technology stack deployed with precision engineering for maximum operational effectiveness"
+  },
+  "missionPortfolio": {
+    "title": "MISSION PORTFOLIO",
+    "subtitle": "Classified operations demonstrating our tactical superiority and successful mission outcomes",
+    "description": "Each deployment showcases our ability to deliver precision results under the most demanding operational conditions.",
+    "ctaText": "View Full Case Studies"
+  },
+  "intelligenceHub": {
+    "title": "INTELLIGENCE HUB",
+    "subtitle": "Strategic insights and tactical intelligence for mission-critical operations",
+    "description": "Real-time analysis and strategic intelligence to maintain tactical superiority",
+    "ctaText": "Subscribe to Intel Brief"
   },
   "footer": {
     "companyName": "{{global.companyName}}",
