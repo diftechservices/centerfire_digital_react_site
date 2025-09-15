@@ -43,7 +43,7 @@ const Header = () => {
           </Link>
 
           {/* Desktop Layout - Centered Company Name */}
-          <Link to="/" className="hidden md:block font-display font-black text-3xl text-white hover:text-gray-100 transition-colors">
+          <Link to="/" className="hidden md:block font-display font-black text-5xl text-white hover:text-gray-100 transition-colors">
             Centerfire Digital
           </Link>
 
