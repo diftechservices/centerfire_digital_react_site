@@ -30,7 +30,7 @@ const ACFFooter = ({ pageSlug = 'homepage' }) => {
     headquarters = {},
     
     // Footer specific
-    footer_copyright_text = '© 2024 Centerfire Digital. All rights reserved. Mission classified.'
+    footer_copyright_text = `© ${new Date().getFullYear()} Centerfire Digital. All rights reserved. Mission classified.`
   } = acf
 
   // Process headquarters address
@@ -158,14 +158,14 @@ const ACFFooter = ({ pageSlug = 'homepage' }) => {
   return (
     <footer className="bg-tactical-dark border-t border-tactical-light">
       {/* Main Footer Content */}
-      <div className="container mx-auto px-6 py-12">
+      <div className="container mx-auto px-6 py-6 md:py-12">
         {/* Single Section - Service Columns & Contact */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8 mb-4 md:mb-8 text-center md:text-left">
           {/* Service Columns */}
           {displayColumns.map((column, columnIndex) => (
             <div key={columnIndex}>
-              <h4 className="font-display font-bold text-lg text-white mb-6">{column.title}</h4>
-              <ul className="space-y-3">
+              <h4 className="font-display font-bold text-lg text-white mb-3 md:mb-6">{column.title}</h4>
+              <ul className="space-y-3 text-center md:text-left">
                 {column.links.map((link, linkIndex) => (
                   <li key={linkIndex}>
                     <Link
@@ -183,11 +183,11 @@ const ACFFooter = ({ pageSlug = 'homepage' }) => {
 
           {/* Contact & Social Column */}
           <div>
-            <h4 className="font-display font-bold text-lg text-white mb-6">Contact Command</h4>
+            <h4 className="font-display font-bold text-lg text-white mb-3 md:mb-6">Contact Command</h4>
             
             {/* Contact Info */}
-            <div className="space-y-3 mb-6">
-              <div className="flex items-center space-x-3">
+            <div className="space-y-2 md:space-y-3 mb-3 md:mb-6">
+              <div className="flex items-center justify-center md:justify-start space-x-3">
                 <i className="fa-solid fa-phone text-tactical-green"></i>
                 <span className="text-gray-300 text-sm">{main_phone}</span>
               </div>
@@ -203,7 +203,7 @@ const ACFFooter = ({ pageSlug = 'homepage' }) => {
                 Send a Message
               </Link>
               
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap justify-center md:justify-start gap-3">
                 {displaySocialLinks.map((social, index) => (
                   <a
                     key={index}
@@ -224,11 +224,11 @@ const ACFFooter = ({ pageSlug = 'homepage' }) => {
       {/* Bottom Section - Copyright & Legal */}
       <div className="border-t border-tactical-light bg-tactical-gray">
         <div className="container mx-auto px-6 py-6">
-          <div className="flex flex-col md:flex-row items-center justify-between">
+          <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left">
             <div className="mb-4 md:mb-0">
               <p className="text-gray-400 text-sm">{footer_copyright_text}</p>
             </div>
-            <div className="flex flex-wrap items-center space-x-6">
+            <div className="flex flex-wrap items-center justify-center md:justify-start space-x-6">
               {displayLegalLinks.map((link, index) => (
                 <Link
                   key={index}
@@ -296,14 +296,14 @@ const FallbackFooter = () => {
     <footer className="bg-tactical-dark border-t border-tactical-light">
 
       {/* Main Footer Content */}
-      <div className="container mx-auto px-6 py-12">
+      <div className="container mx-auto px-6 py-6 md:py-12">
         {/* Single Section - Service Columns & Contact */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8 mb-4 md:mb-8 text-center md:text-left">
           {/* Service Columns */}
           {serviceColumns.map((column, columnIndex) => (
             <div key={columnIndex}>
-              <h4 className="font-display font-bold text-lg text-white mb-6">{column.title}</h4>
-              <ul className="space-y-3">
+              <h4 className="font-display font-bold text-lg text-white mb-3 md:mb-6">{column.title}</h4>
+              <ul className="space-y-3 text-center md:text-left">
                 {column.links.map((link, linkIndex) => (
                   <li key={linkIndex}>
                     <Link
@@ -321,19 +321,19 @@ const FallbackFooter = () => {
 
           {/* Contact & Social Column */}
           <div>
-            <h4 className="font-display font-bold text-lg text-white mb-6">Contact Command</h4>
+            <h4 className="font-display font-bold text-lg text-white mb-3 md:mb-6">Contact Command</h4>
             
             {/* Contact Info */}
-            <div className="space-y-3 mb-6">
-              <div className="flex items-start space-x-3">
+            <div className="space-y-2 md:space-y-3 mb-3 md:mb-6">
+              <div className="flex items-start justify-center md:justify-start space-x-3">
                 <i className="fa-solid fa-location-dot text-fire-orange mt-1"></i>
                 <span className="text-gray-300 text-sm">1234 Tactical Ave, Operations Base, USA 12345</span>
               </div>
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center justify-center md:justify-start space-x-3">
                 <i className="fa-solid fa-phone text-tactical-green"></i>
                 <span className="text-gray-300 text-sm">+1 (555) FIRE-OPS</span>
               </div>
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center justify-center md:justify-start space-x-3">
                 <i className="fa-solid fa-envelope text-steel-blue"></i>
                 <span className="text-gray-300 text-sm">command@centerfiredigital.com</span>
               </div>
@@ -349,7 +349,7 @@ const FallbackFooter = () => {
                 Send a Message
               </Link>
               
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap justify-center md:justify-start gap-3">
                 {socialLinks.map((social, index) => (
                   <a
                     key={index}
@@ -370,11 +370,11 @@ const FallbackFooter = () => {
       {/* Bottom Section - Copyright & Legal */}
       <div className="border-t border-tactical-light bg-tactical-gray">
         <div className="container mx-auto px-6 py-6">
-          <div className="flex flex-col md:flex-row items-center justify-between">
+          <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left">
             <div className="mb-4 md:mb-0">
-              <p className="text-gray-400 text-sm">© 2024 Centerfire Digital. All rights reserved. Mission classified.</p>
+              <p className="text-gray-400 text-sm">© {new Date().getFullYear()} Centerfire Digital. All rights reserved. Mission classified.</p>
             </div>
-            <div className="flex flex-wrap items-center space-x-6">
+            <div className="flex flex-wrap items-center justify-center md:justify-start space-x-6">
               {legalLinks.map((link, index) => (
                 <Link
                   key={index}

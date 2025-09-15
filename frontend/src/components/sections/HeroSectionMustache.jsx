@@ -6,7 +6,7 @@ const HeroSectionMustache = () => {
 
   if (!content) {
     return (
-      <section className="relative h-[900px] flex items-center justify-center bg-tactical-gray">
+      <section className="relative min-h-[800px] flex items-center justify-center bg-tactical-gray py-16">
         <div className="text-center">
           <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-fire-orange mb-4"></div>
           <p className="text-gray-300">Loading hero section...</p>
@@ -19,7 +19,7 @@ const HeroSectionMustache = () => {
   const featureCards = hero.featureCards || []
 
   return (
-    <section className="relative h-[900px] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[800px] flex items-center justify-center overflow-hidden py-16">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-tactical-dark via-tactical-gray to-tactical-dark"></div>
 
@@ -34,14 +34,6 @@ const HeroSectionMustache = () => {
 
       {/* Main content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
-        {/* Tactical operation badge */}
-        <div className="mb-8 flex justify-center">
-          <div className="bg-tactical-gray/50 backdrop-blur-sm border border-tactical-light rounded-full px-6 py-3 flex items-center space-x-3">
-            <StatusIndicator status="critical" size="default" />
-            <span className="text-sm font-display text-gray-300">{hero.badgeText}</span>
-            <StatusIndicator status="operational" size="default" />
-          </div>
-        </div>
 
         {/* Mobile headline */}
         <h1 className="md:hidden font-display font-black text-4xl mb-6 leading-tight">

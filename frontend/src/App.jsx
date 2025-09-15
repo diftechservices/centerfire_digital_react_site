@@ -20,7 +20,7 @@ function App() {
       <Header />
       
       {/* Main content with padding for fixed header */}
-      <main className="pt-20">
+      <main className="pt-20 md:pt-32">
         <Routes>
           <Route path="/" element={<HomePageMustache />} />
           <Route path="/home-old" element={<HomePage />} />
