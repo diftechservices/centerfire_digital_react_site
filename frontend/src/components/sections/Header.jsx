@@ -47,6 +47,28 @@ const Header = () => {
             Centerfire Digital
           </Link>
 
+          {/* Desktop Navigation Menu */}
+          <nav className="hidden md:flex items-center space-x-8">
+            <Link
+              to="/services"
+              className="text-gray-300 hover:text-white transition-colors font-medium"
+            >
+              Services
+            </Link>
+            <Link
+              to="/about"
+              className="text-gray-300 hover:text-white transition-colors font-medium"
+            >
+              About
+            </Link>
+            <Link
+              to="/contact"
+              className="text-gray-300 hover:text-white transition-colors font-medium"
+            >
+              Contact
+            </Link>
+          </nav>
+
           {/* Desktop Phone */}
           {mainPhone && (
             <a
