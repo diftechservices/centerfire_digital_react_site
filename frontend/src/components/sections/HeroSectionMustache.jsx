@@ -53,25 +53,6 @@ const HeroSectionMustache = () => {
           {hero.subheadline}
         </p>
 
-        {/* CTA buttons */}
-        <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6 mb-16">
-          <Button
-            size="lg"
-            className="transform hover:scale-105"
-            onClick={() => window.location.href = hero.ctaButton1Url}
-          >
-            <i className="fa-solid fa-rocket mr-3"></i>
-            <span>{hero.ctaButton1Text}</span>
-          </Button>
-          <Button
-            variant="secondary"
-            size="lg"
-            onClick={() => window.location.href = hero.ctaButton2Url}
-          >
-            <i className="fa-solid fa-play mr-3"></i>
-            <span>{hero.ctaButton2Text}</span>
-          </Button>
-        </div>
 
         {/* Feature cards grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">

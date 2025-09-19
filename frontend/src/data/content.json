@@ -25,18 +25,18 @@
         "description": "Advanced machine learning and AI solutions deployed with surgical precision"
       },
       {
-        "icon": "fa-solid fa-shield-halved",
+        "icon": "fa-solid fa-laptop-code",
         "iconColor": "text-steel-blue",
         "bgColor": "bg-steel-blue/20",
-        "title": "Secure Operations",
-        "description": "Fortress-grade security protocols protecting your digital assets"
+        "title": "Software Engineering",
+        "description": "Enterprise-grade applications built with precision and scalability in mind"
       },
       {
-        "icon": "fa-solid fa-crosshairs",
+        "icon": "fa-solid fa-cogs",
         "iconColor": "text-tactical-green",
         "bgColor": "bg-tactical-green/20",
-        "title": "Target Acquisition",
-        "description": "Laser-focused solutions that hit objectives with zero compromise"
+        "title": "Process Automation",
+        "description": "Intelligent workflows that eliminate manual tasks and accelerate operations"
       }
     ]
   },

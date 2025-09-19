@@ -63,17 +63,6 @@ const HeroSection = () => {
           unwavering reliability, and results that cut through the noise of conventional tech consulting.
         </p>
         
-        {/* CTA buttons */}
-        <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6 mb-16">
-          <Button size="lg" className="transform hover:scale-105">
-            <i className="fa-solid fa-rocket mr-3"></i>
-            <span>Launch Operation</span>
-          </Button>
-          <Button variant="secondary" size="lg">
-            <i className="fa-solid fa-play mr-3"></i>
-            <span>Mission Briefing</span>
-          </Button>
-        </div>
         
         {/* Feature cards grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
