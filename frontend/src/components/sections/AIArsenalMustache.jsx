@@ -93,25 +93,6 @@ const AIArsenalMustache = () => {
           ))}
         </div>
 
-        {/* Custom AI Development Section */}
-        <div className="bg-gradient-to-br from-fire-orange/20 to-tactical-dark border border-fire-orange rounded-xl p-8 text-center">
-          <div className="max-w-3xl mx-auto">
-            <div className="w-16 h-16 bg-fire-orange/20 rounded-lg flex items-center justify-center mx-auto mb-6">
-              <i className="fa-solid fa-cogs text-fire-orange text-2xl"></i>
-            </div>
-
-            <h3 className="font-display font-bold text-3xl mb-4 text-white">
-              Custom AI Development
-            </h3>
-            <p className="text-xl text-gray-300 mb-6">
-              Need a specialized AI solution? Our elite development team creates bespoke artificial intelligence systems tailored to your exact specifications and operational requirements.
-            </p>
-
-            <Button size="lg" className="bg-fire-orange hover:bg-fire-orange/90">
-              {aiArsenal.customAIButtonText}
-            </Button>
-          </div>
-        </div>
       </div>
     </section>
   )

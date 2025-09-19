@@ -281,17 +281,19 @@
     "description": "Real-time intelligence on our tactical capabilities and deployment readiness across all operational theaters"
   },
   "aiArsenal": {
-    "titleLine1": "ARTIFICIAL INTELLIGENCE",
-    "titleLine2": "ENHANCED SYSTEMS",
+    "titleLine1": "AI ENHANCED",
+    "titleLine2": "SYSTEMS",
     "description": "Advanced AI technologies deployed with strategic precision to optimize your operations and achieve competitive advantage",
     "customAIButtonText": "Request AI Assessment"
   },
   "technicalCapabilities": {
-    "title": "PLATFORM EXPERTISE",
+    "titleLine1": "PLATFORM",
+    "titleLine2": "EXPERTISE",
     "description": "Elite technology stack deployed with precision engineering for maximum operational effectiveness"
   },
   "missionPortfolio": {
-    "title": "MISSION PORTFOLIO",
+    "titleLine1": "PROVEN",
+    "titleLine2": "RESULTS",
     "subtitle": "Classified operations demonstrating our tactical superiority and successful mission outcomes",
     "description": "Each deployment showcases our ability to deliver precision results under the most demanding operational conditions.",
     "ctaText": "View Full Case Studies"

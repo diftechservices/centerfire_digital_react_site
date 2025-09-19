@@ -54,7 +54,8 @@ const TechnicalCapabilitiesMustache = () => {
             <span className="font-display text-sm tracking-wider text-white">TECHNICAL ARSENAL</span>
           </div>
           <h2 className="font-display font-black text-5xl lg:text-6xl mb-6">
-            <span className="text-white">{techCapabilities.title}</span>
+            <span className="text-white">{techCapabilities.titleLine1} </span>
+            <span className="text-fire-orange">{techCapabilities.titleLine2}</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto">
             {techCapabilities.description}
