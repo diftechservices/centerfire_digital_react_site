@@ -11,8 +11,8 @@ function HomePage() {
     <div>
       <ACFHeroSection pageSlug="homepage" />
       <ACFMissionControl pageSlug="homepage" />
-      <ACFAIArsenal pageSlug="homepage" />
       <ACFTechnicalCapabilities pageSlug="homepage" />
+      <ACFAIArsenal pageSlug="homepage" />
       <ACFMissionPortfolio pageSlug="homepage" />
       <ACFIntelligenceHub pageSlug="homepage" />
       <ACFTeamSection pageSlug="homepage" />

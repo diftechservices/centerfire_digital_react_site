@@ -8,8 +8,8 @@ const HomePageMustache = () => {
   return (
     <div className="min-h-screen bg-tactical-dark">
       <HeroSectionMustache />
-      <AIArsenalMustache />
       <TechnicalCapabilitiesMustache />
+      <AIArsenalMustache />
       <MissionPortfolioMustache />
       <IntelligenceHubMustache />
     </div>

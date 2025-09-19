@@ -282,12 +282,12 @@
   },
   "aiArsenal": {
     "titleLine1": "ARTIFICIAL INTELLIGENCE",
-    "titleLine2": "WEAPONS SYSTEMS",
-    "description": "Advanced AI technologies deployed with military precision to dominate your competitive landscape and achieve tactical superiority",
+    "titleLine2": "ENHANCED SYSTEMS",
+    "description": "Advanced AI technologies deployed with strategic precision to optimize your operations and achieve competitive advantage",
     "customAIButtonText": "Request AI Assessment"
   },
   "technicalCapabilities": {
-    "title": "TECHNICAL ARSENAL",
+    "title": "PLATFORM EXPERTISE",
     "description": "Elite technology stack deployed with precision engineering for maximum operational effectiveness"
   },
   "missionPortfolio": {

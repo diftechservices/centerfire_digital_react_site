@@ -23,16 +23,16 @@ const TechnicalCapabilitiesMustache = () => {
       iconColor: 'text-fire-orange',
       iconBg: 'bg-fire-orange/20',
       title: 'Cloud Infrastructure',
-      description: 'Military-grade cloud architecture designed for maximum uptime, scalability, and security.',
+      description: 'Cancel-proof, high reliability application hosting that scales with your needs.',
       features: ['99.99% Uptime SLA', 'Auto-scaling', 'Multi-region deployment']
     },
     {
-      icon: 'fa-solid fa-shield-alt',
+      icon: 'fa-solid fa-drafting-compass',
       iconColor: 'text-steel-blue',
       iconBg: 'bg-steel-blue/20',
-      title: 'Cybersecurity',
-      description: 'Advanced security protocols and threat detection systems protecting your digital assets.',
-      features: ['24/7 monitoring', 'Threat detection', 'Zero-trust architecture']
+      title: 'Solution Architecture',
+      description: 'Custom-engineered solutions using the optimal technology stack for your needs.',
+      features: ['Technology assessment', 'Platform selection', 'Scalable design']
     },
     {
       icon: 'fa-solid fa-database',
