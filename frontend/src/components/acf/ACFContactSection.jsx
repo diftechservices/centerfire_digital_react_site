@@ -118,7 +118,7 @@ const ACFContactSection = ({ pageSlug = 'contact' }) => {
   // Extract ACF data
   const acf = content.acf || {}
   const {
-    page_title = content.title?.rendered || 'Contact Us',
+    page_title = (content.title?.rendered === 'ACF Contact Test' || !content.title?.rendered) ? 'Ready to Deploy Solutions?' : content.title?.rendered,
     page_subtitle = 'Get in touch with our tactical team',
     
     // Contact Information
